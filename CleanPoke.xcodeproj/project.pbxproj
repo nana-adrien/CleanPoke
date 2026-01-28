@@ -48,16 +48,6 @@
 			path = CleanPoke;
 			sourceTree = "<group>";
 		};
-		CEE1FA102F29672400CCD3E3 /* CleanPokeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CleanPokeTests;
-			sourceTree = "<group>";
-		};
-		CEE1FA1A2F29672400CCD3E3 /* CleanPokeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CleanPokeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				CEE1F9FE2F29672200CCD3E3 /* CleanPoke */,
-				CEE1FA102F29672400CCD3E3 /* CleanPokeTests */,
-				CEE1FA1A2F29672400CCD3E3 /* CleanPokeUITests */,
 				CEE1F9FD2F29672200CCD3E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				CEE1FA0F2F29672400CCD3E3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CEE1FA102F29672400CCD3E3 /* CleanPokeTests */,
-			);
 			name = CleanPokeTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				CEE1FA192F29672400CCD3E3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CEE1FA1A2F29672400CCD3E3 /* CleanPokeUITests */,
 			);
 			name = CleanPokeUITests;
 			packageProductDependencies = (

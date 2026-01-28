@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+class GetAllPokemonUseCase{
+	
+	let pokemonRepository=PokemonRepository()
+	func execute(offset:Int,limit:Int) async throws ->[Pokemon]{
+		return try await pokemonRepository.getPokemon(offset: offset, limit: limit)
+	}
+}
